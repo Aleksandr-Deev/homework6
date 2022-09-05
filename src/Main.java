@@ -93,7 +93,6 @@ public class Main {
         System.out.println();
     }
     public static void main(String[] args) {
-
         Task1();
         Task2();
         Task3();
@@ -103,6 +102,5 @@ public class Main {
         Tack7();
         Task8();
         Task9();
-
     }
 }
