@@ -70,25 +70,25 @@ public class Main {
         // Задание 1
     public static void Task8() {
 
-        int salaries = 29000;
-        int total = 0;
+        int part = 29000;
+        int sum = 0;
 
         for (int i = 1; i < 13; i++) {
-            total += salaries;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей.");
+            sum += part;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + sum + " рублей.");
         }
         System.out.println();
     }
         // Занятие 2
     public static void  Task9() {
 
-        int salaries = 29000;
-        int total = 0;
+        int part = 29000;
+        int sum = 0;
 
         for (int i = 1; i < 13; i++) {
-            total += total/100;
-            total += salaries;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей.");
+            sum += sum/100;
+            sum += part;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + sum + " рублей.");
         }
         System.out.println();
     }
